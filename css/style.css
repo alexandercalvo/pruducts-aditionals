@@ -1,0 +1,69 @@
+:root {
+  --color-primary: #000;
+  --color-secundary: #fff;
+  --color-thirthy: #ff6347;
+  --color-forthy: #db9230;
+  --color-five: #eee9d7;
+  --color-sisty: #46685f;
+  --color-seven: #f1ae1d;
+  --color-eighth: #643214;
+}
+body {
+  margin: 0;
+}
+.section-booking {
+  margin: 0 15px;
+  padding-bottom: 20px;
+}
+
+.section-booking__send {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  background-color: var(--color-seven);
+  color: var(--color-secundary);
+  border:none;
+}
+.section-booking__info, .section-booking__inputs{
+  border: 0.1rem solid var(--color-primary);
+  padding: 0 10px;
+  padding-bottom: 30px;
+
+}
+.section-booking__h4 {
+  margin: 0 auto;
+  color: var(--color-primary);
+  background-color: var(--color-sisty);
+  padding: 10px 30px;
+}
+
+.section-booking__image {
+  display: block;
+  margin: auto;
+}
+
+.section-booking__question {
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 1px solid var(--color-secundary);
+}
+.section-booking__transport-title {
+  font-weight: bold;
+}
+.section-booking__head {
+  padding: 0 10px;
+}
+.section-booking__row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.section-booking__input{
+  width: 20px;
+}
+.section-booking__child{
+  flex-basis: 50%;
+}
+.section-booking__adult{
+  flex-basis: 50%;
+}
